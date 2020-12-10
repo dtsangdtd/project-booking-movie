@@ -1,0 +1,110 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.carousel {
+  margin-top: 70px;
+  .carousel-inner {
+    height: 600px;
+    .carousel-item {
+      img {
+        height: 600px;
+      }
+    }
+  }
+}
+.owl-stage {
+  position: relative !important;
+  // width: 50px !important;
+  margin: 0 auto;
+  .owl-item {
+    margin: 0;
+    width: 200px;
+    float: left;
+    position: relative;
+  }
+}
+.movieItem {
+  position: relative;
+  margin-top: 5rem;
+  height: 30rem;
+  padding: 0 15px;
+  img {
+    width: 100%;
+    height: 350px;
+  }
+  .movieTitle {
+    padding: 15px 0 0 0;
+    h5 {
+      text-align: center;
+      font-size: 16px;
+      text-transform: uppercase;
+    }
+  }
+  .buttonXem {
+    opacity: 0;
+    position: absolute;
+    padding-right: 15px;
+    bottom: 5rem;
+    width: 95%;
+    .btn-danger {
+      text-align: center;
+      font-size: 25px;
+      width: 100%;
+      text-transform: uppercase;
+      height: 3rem;
+    }
+    &:hover {
+      transition: all 0.5s;
+      opacity: 1;
+    }
+  }
+}
+.owl-carousel {
+  position: relative;
+  .owl-nav {
+    button {
+      &:hover {
+        background: none !important;
+      }
+    }
+    .owl-prev {
+      position: absolute;
+      left: -25px;
+      top: 10rem;
+      &:focus {
+        outline: none !important;
+      }
+      &:hover span {
+        color: #fb4226;
+      }
+      span {
+        color: black;
+        font-size: 5rem;
+      }
+    }
+    .owl-next {
+      position: absolute;
+      right: -25px;
+      top: 10rem;
+      &:focus {
+        outline: none !important;
+      }
+      &:hover span {
+        color: #fb4226;
+      }
+      span {
+        font-size: 5rem;
+        color: black;
+        &:hover {
+          border: none;
+          background: none;
+        }
+      }
+    }
+  }
+}

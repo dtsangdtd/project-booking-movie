@@ -1,0 +1,106 @@
+.navbar {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+.navbar .navbar-brand {
+  width: 10%;
+}
+
+.navbar .navbar-brand img {
+  width: 40px;
+  height: 40px;
+}
+
+.navbar-collapse {
+  -ms-flex-pack: distribute !important;
+      justify-content: space-around !important;
+}
+
+.navbar-collapse .navbar-nav .nav-item .nav-link:hover {
+  color: #fb4226;
+}
+
+.form-login-sigup {
+  width: 100%;
+  display: inline-block;
+  width: 10%;
+  height: 100%;
+  padding: 0 20px;
+}
+
+.form-login-sigup .login {
+  width: 100%;
+  padding: 1rem;
+  text-decoration: none;
+  color: black;
+  font-size: small;
+}
+
+.form-login-sigup .login:hover {
+  color: #fb4226;
+  font-size: 12px;
+}
+
+.form-login-sigup .signUp {
+  width: 100%;
+  text-decoration: none;
+  color: black;
+  font-size: small;
+}
+
+.form-login-sigup .signUp:hover {
+  color: #fb4226;
+  font-size: 12px;
+}
+
+.slider-carousel {
+  position: relative;
+  margin-top: 3%;
+}
+
+.slider-carousel .owl-prev {
+  position: absolute;
+  top: 35%;
+  right: 98%;
+}
+
+.slider-carousel .owl-prev span {
+  font-size: 5rem;
+  color: white;
+}
+
+.slider-carousel .owl-next {
+  position: absolute;
+  top: 35%;
+  left: 98%;
+}
+
+.slider-carousel .owl-next span {
+  font-size: 5rem;
+  color: white;
+}
+
+.slider-carousel .owl-dots {
+  position: absolute;
+  bottom: 5%;
+  left: 48%;
+}
+
+.slider-carousel .owl-dots .owl-dot {
+  outline: none;
+}
+
+.slider-carousel .item img {
+  height: 50rem;
+  width: 100%;
+}
+
+.owl-theme .owl-nav [class*='owl-']:hover {
+  background: none;
+  outline: none;
+}
+/*# sourceMappingURL=index.css.map */

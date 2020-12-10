@@ -1,0 +1,25 @@
+#listMovieTab {
+  padding: 2rem 0 0 0;
+  .nav {
+    justify-content: center;
+    .nav-item {
+      transition: all 0.2s;
+      border: none;
+      .nav-link {
+        font-weight: 400;
+        font-size: 1.7rem;
+        color: black;
+        background: none;
+        transition: all 0.1s;
+        border: none;
+        transform: scale(1);
+        &.active {
+          color: #60c5ef;
+        }
+        &:hover {
+          transform: scale(1.1);
+        }
+      }
+    }
+  }
+}

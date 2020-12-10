@@ -1,0 +1,90 @@
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+.navbar .navbar-brand {
+  width: 10%;
+}
+
+.navbar .navbar-brand img {
+  width: 40px;
+  height: 40px;
+}
+
+.navbar-collapse {
+  -ms-flex-pack: distribute !important;
+      justify-content: space-around !important;
+}
+
+.navbar-collapse .navbar-nav .nav-item .nav-link:hover {
+  color: #fb4226;
+}
+
+.form-login-sigup {
+  width: 100%;
+  display: inline-block;
+  width: 15%;
+  height: 100%;
+  padding: 0 20px;
+}
+
+.form-login-sigup .login {
+  width: 100%;
+  padding: 1rem;
+  text-decoration: none;
+  color: black;
+  font-size: small;
+}
+
+.form-login-sigup .login:hover {
+  color: #fb4226;
+  font-size: 12px;
+}
+
+.form-login-sigup .signUp {
+  width: 100%;
+  text-decoration: none;
+  color: black;
+  font-size: small;
+}
+
+.form-login-sigup .signUp:hover {
+  color: #fb4226;
+  font-size: 12px;
+}
+
+.carousel {
+  margin-top: 70px;
+}
+
+.carousel .carousel-inner {
+  height: 700px;
+}
+
+.carousel .carousel-inner .carousel-item img {
+  height: 700px;
+}
+
+.owl-stage {
+  position: relative !important;
+  margin: 0 auto;
+}
+
+.owl-stage .owl-item {
+  margin: 0;
+  width: 200px;
+  float: left;
+  position: relative;
+}
+/*# sourceMappingURL=index.css.map */
